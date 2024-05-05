@@ -18,6 +18,7 @@ node {
     println CONNECTED_APP_CONSUMER_KEY
 	println 'before tool'
     def toolbelt = tool 'toolbelt'
+    println ${toolbelt}
     println 'after tool'
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
