@@ -8,7 +8,7 @@
     ],
     "paths": {
         "c/*": [
-            "*"
+            "*1"
         ]
     },
     "typeAcquisition": {
