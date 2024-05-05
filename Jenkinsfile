@@ -16,6 +16,7 @@ node {
     println HUB_ORG
     println SFDC_HOST
     println CONNECTED_APP_CONSUMER_KEY
+	println 'before tool'
     def toolbelt = tool 'toolbelt'
     println 'after tool'
     stage('checkout source') {
